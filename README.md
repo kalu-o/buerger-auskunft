@@ -2,9 +2,11 @@
 
 **BürgerAuskunft** (German for "Citizen Inquiry") is an open-source, speech-powered AI assistant designed to make public and civic information easily accessible to everyone. It leverages a powerful **Retrieval-Augmented Generation (RAG)** pipeline to provide accurate, transparent, and trustworthy answers from official documents.
 
-Designed with a **privacy-first** and **security-by-design** philosophy, BürgerAuskunft runs entirely on self-hosted, open-source models, ensuring that user queries and sensitive institutional data never leave your control. Its intuitive, voice-driven chat interface allows users to ask questions in natural language and receive answers in real-time, transforming dense public records into an interactive and engaging resource.
+Designed with a **privacy-first**, **voice-first accessibility** and **security-by-design** philosophy, BürgerAuskunft runs entirely on self-hosted, open-source models, ensuring that user queries and sensitive institutional data never leave your control. Its intuitive, voice-driven chat interface allows users to ask questions in natural language and receive answers in real-time, transforming dense public records into an interactive and engaging resource.
 
 The server component is implemented in Python, fully containerized with Docker for easy deployment, while the modern frontend is built with vanilla JavaScript/HTML.
+
+<img width="211" height="386" alt="2" src="https://github.com/user-attachments/assets/d5f786fd-1efd-4005-9647-c103e696f78d" />
 
 ## Table of Contents
 
@@ -67,7 +69,6 @@ The system is designed as a modern, decoupled client-server application.
 ### 1. Connecting the Client
 
 After the services are running, open the `index.html` file in the project root in a supported browser (like Google Chrome). The application will connect automatically, and you can start asking questions.
-<img width="423" height="773" alt="2" src="https://github.com/user-attachments/assets/d5f786fd-1efd-4005-9647-c103e696f78d" />
 
 
 ### Frontend Development
